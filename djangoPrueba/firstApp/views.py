@@ -8,5 +8,5 @@ def display(request):
 
 def displayDatetime(request):
     dt = datetime.datetime.now()
-    s = "<b>Fecha y hora catuales: </b>" + str(dt)
+    s = "<b>Fecha y hora catuales:</b>" + str(dt)
     return HttpResponse(s)
